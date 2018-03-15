@@ -1,0 +1,5 @@
+server:
+  port: 9202
+  context-path: /saw-consumer
+  tomcat:
+    uri-encoding: UTF-8

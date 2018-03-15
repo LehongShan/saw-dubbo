@@ -1,0 +1,5 @@
+server:
+  port: 9201
+  context-path: /saw-provider
+  tomcat:
+    uri-encoding: UTF-8
