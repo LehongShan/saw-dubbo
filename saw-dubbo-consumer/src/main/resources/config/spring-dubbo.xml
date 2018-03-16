@@ -10,5 +10,5 @@
     <dubbo:application name="saw-consumer"/>
     <dubbo:registry address="zookeeper://47.97.189.34:2181"/>
     <dubbo:annotation package="cn.shan.saw.dubbo.consumer.controller"/>
-
+    <dubbo:consumer check="false" />
 </beans>

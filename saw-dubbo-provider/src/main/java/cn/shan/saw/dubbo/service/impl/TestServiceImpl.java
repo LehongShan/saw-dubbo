@@ -10,7 +10,7 @@ import java.util.Date;
 /**
  * Created by shanlehong on 2018/3/15.
  */
-@Service(validation = "1.0.0")
+@Service(version = "1.0.0")
 public class TestServiceImpl  implements TestService {
     @Override
     public String sayHello(String str) {
